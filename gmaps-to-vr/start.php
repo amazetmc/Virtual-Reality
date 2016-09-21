@@ -31,7 +31,7 @@ if (!file_exists("assets/img/$id/build.jpg")){ // if the current panorama has be
 
   for ($x=0; $x <13 ; $x++) { // For every row in the Y axis
     for ($i=0; $i <26 ; $i++) { // For every row in the X axis
-      unlink("assets/img/$id/$x-$i.jpg");
+      unlink("assets/img/$id/$x-$i.jpg"); // Delete the file
     }
   }
 
